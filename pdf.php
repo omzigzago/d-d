@@ -1,4 +1,5 @@
 <?php
+//'fpdf.php' vient du zip que t'auras téléchargé
 require('fpdf.php');
 
 $pdf = new FPDF();
