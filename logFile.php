@@ -17,7 +17,7 @@
       </div>
 <?php
 $cheminVersLog='C:\Program Files (x86)\PostgreSQL\EnterpriseDB-ApachePHP\apache\logs\error.log';//remplace ceci par le chemin vers le log de ton serveur
-$nomDeCeFihier='http://localhost:8080/cheminVersCeFichier/logFile.php'
+$nomDeCeFihier='http://localhost:8080/cheminVersCeFichier/logFile.php';
 if(isset($_GET['action']) && $_GET['action']=='clear')
 {
 			fopen($cheminVersLog, 'w'); // ouvre le fichier et réduit sa taille à zéro
